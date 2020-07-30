@@ -1,5 +1,5 @@
 {{ config(
-    materialized = 'incremental',
+    materialized = 'table',
     unique_key = 'page_view_id',
     sort = 'tstamp',
     dist = 'page_view_id'
